@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>이지테크리</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Apple SD Gothic Neo,Malgun Gothic,sans-serif;margin:0}
+    header{padding:48px 24px;text-align:center}
+    h1{margin:0;font-size:28px}
+    p{color:#444}
+    main{max-width:960px;margin:0 auto;padding:24px}
+    .cta{display:inline-block;margin-top:16px;padding:10px 16px;border-radius:8px;border:1px solid #ddd;text-decoration:none}
+    footer{padding:24px;text-align:center;color:#777;border-top:1px solid #eee}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>이지테크리 공식 홈페이지</h1>
+    <p>산업 자동화 · HMI · SCADA · 데이터 연동</p>
+    <a class="cta" href="mailto:info@eztechle.com">문의하기</a>
+  </header>
+  <main>
+    <h2>회사 소개</h2>
+    <p>우리의 기술로 설비와 데이터를 연결합니다.</p>
+  </main>
+  <footer>© <span id="y"></span> EZTECHLE</footer>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
